@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <lightningComponents>
+        <isExposed>isExposed</isExposed>
+        <name>orgLimits</name>
+        <targets>lightning__UtilityBar</targets>
+        <targets>lightning__Tab</targets>
+        <targets>lightning__AppPage</targets>
+        <targets>lightning__HomePage</targets>
+    </lightningComponents>
+    <namespacePrefix>az0</namespacePrefix>
+    <types>
+        <members>GetOrgLimits</members>
+        <members>GetOrgLimitsTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>orgLimits</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <version>48.0</version>
+</Package>
